@@ -1,4 +1,7 @@
 git init // for initializing repository
 git add <file>
 git commit -m "your commit message"
-git reset --soft HEAD~1
+git reset --soft HEAD~1 //inhalt von commits zu Staging Area (Änderungsbereich)
+git reset --mied HEAD~1 //inhalt von commits zu working directory (lokalverzeichnis)
+git reset --hard HEAD~1 //inhalt von commits vollständig löschen 
+git revert commitID
